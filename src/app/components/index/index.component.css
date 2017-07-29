@@ -1,0 +1,82 @@
+header {
+  height: 64px;
+  font-size: 15px;
+  border-bottom: 1px solid #e1e1e1; }
+  header .row {
+    width: 1200px;
+    height: inherit;
+    padding-left: 27px; }
+    header .row a, header .row a:hover {
+      color: #333333;
+      text-decoration-line: none; }
+      header .row a:last-of-type, header .row a:hover:last-of-type {
+        margin-left: 36px;
+        margin-right: 14px; }
+      header .row a i, header .row a:hover i {
+        color: #a2a2a2;
+        font-size: 18px; }
+
+.app-big-container {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 64px;
+  margin: 0px;
+  width: 100%;
+  width: 150px;
+  background-color: #333743; }
+  .app-big-container ul {
+    color: #a2a2a2;
+    padding-left: 0px;
+    list-style: none; }
+    .app-big-container ul ul.left-nav {
+      height: inherit;
+      height: 46px; }
+      .app-big-container ul ul.left-nav > li {
+        height: 46px;
+        width: inherit;
+        cursor: pointer;
+        padding-left: 22px;
+        padding-right: 19px;
+        background-color: #41485b; }
+        .app-big-container ul ul.left-nav > li:hover {
+          color: #ffffff;
+          background-color: #0074c5; }
+      .app-big-container ul ul.left-nav > ul > li {
+        height: 43px; }
+        .app-big-container ul ul.left-nav > ul > li .curr {
+          color: #FFFFFF; }
+          .app-big-container ul ul.left-nav > ul > li .curr a {
+            color: #FFFFFF; }
+        .app-big-container ul ul.left-nav > ul > li a {
+          color: #a2a2a2;
+          text-decoration: none; }
+          .app-big-container ul ul.left-nav > ul > li a:hover {
+            color: #FFFFFF;
+            text-decoration: none; }
+          .app-big-container ul ul.left-nav > ul > li a i {
+            margin: 0px 12px 0 22px; }
+  .app-big-container .right-container {
+    background-color: #f2f2f2; }
+    .app-big-container .right-container .right-header {
+      color: #a2a2a2;
+      height: 46px;
+      line-height: 46px;
+      padding-left: 20px;
+      background-color: #FFFFFF; }
+      .app-big-container .right-container .right-header span {
+        display: inline-block;
+        padding: 0 6px; }
+    .app-big-container .right-container .main-container {
+      padding: 13px;
+      width: 1070px;
+      height: calc(100% -  46px); }
+      .app-big-container .right-container .main-container .container-outlet {
+        height: 100%;
+        padding: 14px;
+        border: 1px solid #e1e1e1;
+        overflow: scroll;
+        background-color: #FFFFFF; }
+
+/*# sourceMappingURL=index.component.css.map */

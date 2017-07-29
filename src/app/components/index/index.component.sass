@@ -1,0 +1,98 @@
+@import "../../../variables.sass"
+
+header
+  height: 64px
+  font-size: 15px
+  border-bottom: $border
+  .row
+    width: 1200px
+    height: inherit
+    padding-left: 27px
+    a, a:hover
+      color: $dark
+      text-decoration-line: none
+      &:last-of-type
+        margin-left: 36px
+        margin-right: 14px
+
+      i
+        color: $gray
+        font-size: 18px
+
+
+
+.app-big-container
+  position: absolute
+  left: 0px
+  right: 0px
+  bottom: 0px
+  top: 64px
+  margin: 0px
+  width: 100%
+  .left-container
+  width: 150px
+  background-color: rgb(51, 55, 67)
+
+  ul
+    color: $gray
+    padding-left: 0px
+    list-style: none
+    ul.left-nav
+      height: inherit
+      height: 46px
+      > li
+        height: 46px
+        width: inherit
+        cursor: pointer
+        padding-left: 22px
+        padding-right: 19px
+        background-color: #41485b
+        &:hover
+          color: #ffffff
+          background-color: #0074c5
+
+      > ul
+        > li
+          height: 43px
+          & .curr
+            color: #FFFFFF
+            a
+              color: #FFFFFF
+          a
+            color: $gray
+            text-decoration: none
+            &:hover
+              color: #FFFFFF
+              text-decoration: none
+            i
+              margin: 0px 12px 0 22px
+
+  .right-container
+    background-color: #f2f2f2
+    .right-header
+      color: $gray
+      height: 46px
+      line-height: 46px
+      padding-left: 20px
+      background-color: #FFFFFF
+      span
+        display: inline-block
+        padding: 0 6px
+    .main-container
+      padding: 13px
+      width: 1070px
+      height: calc(100% -  46px)
+      .container-outlet
+        height: 100%
+        padding: 14px
+        border: $border
+        overflow: scroll
+        background-color: #FFFFFF
+
+
+
+
+
+
+
+

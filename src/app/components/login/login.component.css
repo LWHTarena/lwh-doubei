@@ -1,0 +1,134 @@
+header {
+  padding: 0px;
+  border-bottom: 5px solid #1974a3; }
+  header div.row {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px; }
+    header div.row img {
+      height: 40px; }
+    header div.row a {
+      color: #797979;
+      font-size: 12px;
+      line-height: 20px; }
+      header div.row a:last-of-type {
+        margin: 0 14px; }
+
+div.container-fluid {
+  height: 468px;
+  background: url(../../../assets/images/applier/organization.jpg) center; }
+  div.container-fluid .form-container {
+    width: 465px;
+    height: 335px;
+    font-size: 12px;
+    background: #ffffff;
+    margin-top: 90px;
+    margin-left: 55%;
+    color: #797979;
+    padding-bottom: 35px;
+    box-shadow: 5px 5px 20px black; }
+  div.container-fluid h4 {
+    margin: 0px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 14px; }
+  div.container-fluid .row {
+    margin: 0px;
+    height: 55px;
+    color: #797979;
+    font-size: 12px;
+    line-height: 55px; }
+    div.container-fluid .row label {
+      margin: 0px;
+      padding: 0px;
+      width: 90px;
+      height: 30px;
+      text-align: right;
+      line-height: 30px;
+      display: inline-block; }
+    div.container-fluid .row input {
+      outline: 0px;
+      color: #333333;
+      width: 315px;
+      height: 30px;
+      padding-left: 5px;
+      line-height: 30px;
+      border: 1px solid #cccccc;
+      -webkit-appearance: none; }
+    div.container-fluid .row:first-of-type {
+      margin: 0px; }
+    div.container-fluid .row:check-code input {
+      width: 185px; }
+    div.container-fluid .row:check-code img {
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      margin-left: 10px;
+      vertical-align: middle; }
+    div.container-fluid .row .login-submit {
+      height: 55px;
+      padding-left: 90px;
+      margin-right: 60px; }
+      div.container-fluid .row .login-submit button {
+        color: #FFFFFF;
+        border: none;
+        width: 322px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 30px;
+        background: #1974a3; }
+
+footer {
+  border-top: #c8c8c8 solid 1px;
+  padding: 40px 0px 34px 0px; }
+  footer .container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px; }
+    footer .container dl {
+      margin-bottom: 0px; }
+    footer .container .copyright {
+      font-size: 12px;
+      line-height: 2;
+      color: #797979; }
+      footer .container .copyright dt {
+        color: #797979;
+        line-height: 1;
+        font-size: 20px;
+        font-weight: normal;
+        padding-bottom: 10px; }
+        footer .container .copyright dt a, footer .container .copyright dt a:hover {
+          color: #797979;
+          text-decoration: none; }
+        footer .container .copyright dt a:last-of-type {
+          margin-left: 30px; }
+      footer .container .copyright dd {
+        margin: 0; }
+        footer .container .copyright dd img {
+          margin-right: 6px; }
+    footer .container .qrcode {
+      margin-top: 0; }
+      footer .container .qrcode dl dt {
+        height: 104px; }
+        footer .container .qrcode dl dt img {
+          width: 104px;
+          height: 104px; }
+      footer .container .qrcode dl dd {
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center; }
+      footer .container .qrcode dl:last-of-type {
+        margin-left: 58px; }
+
+.row {
+  margin: 1rem 0 0; }
+
+a, a:hover {
+  color: #797979;
+  text-decoration: none; }
+
+.red {
+  color: #f00; }
+
+/*# sourceMappingURL=login.component.css.map */

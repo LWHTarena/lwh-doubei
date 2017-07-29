@@ -20,8 +20,18 @@
     "@angular/platform-browser": "^4.3.1",
     "@angular/platform-browser-dynamic": "^4.3.1",
     "@angular/router": "^4.3.1",
+    "angular-froala-wysiwyg": "^1.0.0",
+    "angular2-image-upload": "^0.6.6",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "core-js": "^2.4.1",
+    "froala-editor": "^2.6.4",
+    "mydatepicker": "^2.0.26",
+    "ngx-bootstrap": "^1.8.0",
+    "ngx-umeditor": "^1.0.2",
+    "node-sass": "^4.5.3",
     "rxjs": "^5.4.2",
+    "tinymce": "^4.6.4",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
@@ -35,12 +45,15 @@
     "karma": "~1.7.0",
     "karma-chrome-launcher": "~2.0.0",
     "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
     "protractor": "~5.1.2",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.2",
     "ts-node": "~3.2.1",
     "tslint": "~5.5.0",
-    "typescript": "~2.4.2"
+    "typescript": "~2.4.2",
+    "webpack-dev-server": "^2.6.1"
   }
 }

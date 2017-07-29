@@ -1,0 +1,70 @@
+<header class="container-fluid">
+ <div class="row justify-content-between">
+   <a href="http://www.doubei365.com/index.php?g=user&m=index&a=index">
+     <img class="mr-3" src="http://www.doubei365.com/tpl/simplebootx/Public/newindex/images/logo.png">
+   </a>
+   <a href="http://www.doubei365.com/index.php?g=user&m=index&a=index">豆贝首页</a>
+ </div>
+</header>
+
+<div class="container-fluid d-flex">
+  <div class="form-container">
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <h4 CLASS="text-center">供应商登陆</h4>
+      <div CLASS="form-group row align-items-center">
+        <label for="supplier_user_name">登录名：</label>
+        <input type="text" id="supplier_user_name" required
+               formControlName="supplier_user_name" autocomplete="off" placeholder="请输入用户名">
+      </div>
+      <div *ngIf="formErrors['supplier_user_name']" class="red-tip">
+        {{ formErrors['supplier_user_name'] }}</div>
+      <div class="form-group row align-items-center">
+        <label for="supplier_user_password">密码：</label>
+        <input type="password" id="supplier_user_password" required
+               formControlName="supplier_user_password" autocomplete="off" placeholder="请输入验证码">
+      </div>
+      <div *ngIf="formErrors['supplier_user_password']" class="red-tip">
+        {{ formErrors['supplier_user_password'] }}</div>
+
+      <div class="form-group row align-items-center check-code">
+        <label for="verify">验证码：</label>
+        <input type="text" id="verify" required
+               formControlName="verify" autocomplete="off" placeholder="请输入验证码">
+        <img [src]="imageCheckCode" (click)="refreshCode()">
+      </div>
+      <div *ngIf="formErrors['verify']" class="red-tip">
+        {{ formErrors['verify'] }}</div>
+
+      <div class="form-group row justify-content-between align-items-center login-tips">
+        <a href="javascript:;">忘记登录密码？请联系豆贝<span class="red">4008-030-037</span></a>
+        <a href="javascript:;" class="red" (click)="showApplyModal()"><span class="red">申请入驻</span></a>
+      </div>
+      <div class="form-group row align-items-center login-submit">
+        <button type="submit">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <div class="container row justify-content-between">
+    <dl class="copyright">
+      <dt><a href="javascript:;">关于我们</a><a href="javascript:;">联系我们</a></dt>
+      <dd>Copyright © 2014-2017 豆贝教育网 杭州豆贝网络科技有限公司</dd>
+      <dd>网站备案号：浙ICP备14043167号-1</dd>
+      <dd>增值电信业务经营许可证：浙B2-20160372</dd>
+      <dd><img src="http://www.doubei365.com/tpl/simplebootx/Public/xiao/images/ba.png">浙公网安备：33010802005425号</dd>
+    </dl>
+    <div class="qrcode row justify-content-between">
+      <dl>
+        <dt><img src="./assets/images/common/school-assistant.jpg"></dt>
+        <dd>豆贝校务助手</dd>
+      </dl>
+      <dl>
+        <dt><img src="./assets/images/common/classroom-assistant.jpg"></dt>
+        <dd>豆贝课堂小助手</dd>
+      </dl>
+    </div>
+  </div>
+</footer>
